@@ -1,3 +1,4 @@
+
 2. ¿Qué parametros necesita? 
 Para que el console log imprimga algo en la consola se necesita algun tipo de dato. Estos pueden ser cadensa de texto(string), numeros, booleanos, objetos, arrays, funciones, expresiones o 
 valores tipo null y undefined. 
@@ -6,3 +7,30 @@ valores tipo null y undefined.
 Además de todos los parametros básicos como mostrar texto o variantes del código, dentro del console.log también se pueden usar parametros combiados 
 usando texto, variantes y objetos en el mismo console.log. Se pueden usar parametros como 'Date.now', que devuelve el dia actual. Por último también 
 se pueden hacer cuentas dentro del console, y cuando se ejecuta aparece el resultado. 
+
+3. ejemplos de parametros
+javascript
+- imprimir un msj
+console.log("hola, mundo");
+
+- imprimir valores variables
+let num = 25;
+console.log("el numero es:", num);
+
+- imprimir un objeto
+let persona = { nombre: "irene", edad: 50 };
+console.log("nombre y edad del usuario:", persona);
+
+- imprimir un array
+let numeros = [1, 2, 3, 4, 5];
+console.log("listado de numeros:", numeros);
+
+- imprimir una expresión
+console.log("el resultado de 5 + 5 es:", 5 + 5);
+
+Desarrollar:
+Front-end: La consola del navegador se usa principalmente para depuracion en la interfaz del usuario y en la interaccion del usuario con la aplicacion.
+Cualquier persona puede acceder a esta por lo que cosas como contraseñas o nombres de usuario (o cualquier dato personal) no deberia verse.
+
+Back-end:  La consola en el servidor se usa para rastrear el estado del servidor, las solicitudes y respuestas, y manejar la logica del lado del servidor.
+Esta consola solamente la puede ver el dueño del programa por lo que podrian aparecer datos que el publico no puede ver.
