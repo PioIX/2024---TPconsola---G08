@@ -1,3 +1,9 @@
 2. ¿Qué parametros necesita? 
 Para que el console log imprimga algo en la consola se necesita algun tipo de dato. Estos pueden ser cadensa de texto(string), numeros, booleanos, objetos, arrays, funciones, expresiones o 
 valores tipo null y undefined. 
+
+Front-end: La consola del navegador se usa principalmente para depuracion en la interfaz del usuario y en la interaccion del usuario con la aplicacion.
+Cualquier persona puede acceder a esta por lo que cosas como contraseñas o nombres de usuario (o cualquier dato personal) no deberia verse.
+
+Back-end:  La consola en el servidor se usa para rastrear el estado del servidor, las solicitudes y respuestas, y manejar la logica del lado del servidor.
+Esta consola solamente la puede ver el dueño del programa por lo que podrian aparecer datos que el publico no puede ver.
