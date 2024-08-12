@@ -1,4 +1,10 @@
-- ejemplos de parametros
+
+2. ¿Qué parametros necesita? 
+Para que el console log imprimga algo en la consola se necesita algun tipo de dato. Estos pueden ser cadensa de texto(string), numeros, booleanos, objetos, arrays, funciones, expresiones o 
+valores tipo null y undefined. 
+
+
+3. ejemplos de parametros
 javascript
 - imprimir un msj
 console.log("hola, mundo");
