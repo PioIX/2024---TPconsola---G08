@@ -1,3 +1,8 @@
 2. ¿Qué parametros necesita? 
 Para que el console log imprimga algo en la consola se necesita algun tipo de dato. Estos pueden ser cadensa de texto(string), numeros, booleanos, objetos, arrays, funciones, expresiones o 
 valores tipo null y undefined. 
+
+3.¿Que otros parametros puede usar?
+Además de todos los parametros básicos como mostrar texto o variantes del código, dentro del console.log también se pueden usar parametros combiados 
+usando texto, variantes y objetos en el mismo console.log. Se pueden usar parametros como 'Date.now', que devuelve el dia actual. Por último también 
+se pueden hacer cuentas dentro del console, y cuando se ejecuta aparece el resultado. 
