@@ -1,0 +1,19 @@
+- ejemplos de parametros
+javascript
+- imprimir un msj
+console.log("hola, mundo");
+
+- imprimir valores variables
+let num = 25;
+console.log("el numero es:", num);
+
+- imprimir un objeto
+let persona = { nombre: "irene", edad: 50 };
+console.log("nombre y edad del usuario:", persona);
+
+- imprimir un array
+let numeros = [1, 2, 3, 4, 5];
+console.log("listado de numeros:", numeros);
+
+- imprimir una expresión
+console.log("el resultado de 5 + 5 es:", 5 + 5);
